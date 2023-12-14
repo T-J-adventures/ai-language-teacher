@@ -1,0 +1,2 @@
+services:
+    hello_lambda_url: ${hello_lambda_url}

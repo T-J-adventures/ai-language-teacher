@@ -10,4 +10,7 @@ terraform plan
 terraform apply
 terraform destroy
 
-curl https://w0j9appfq1.execute-api.eu-central-1.amazonaws.com/test/hello -X POST -d '{"name": "Joe"}'
+curl <terraform/dist/config/test_template.yaml-ből az url>/hello -X POST -d '{"name": "Joe"}'
+
+curl https://ic0zimkyxf.execute-api.eu-central-1.amazonaws.com/test/hello -X POST -d '{"name": "Joe"}'
+
